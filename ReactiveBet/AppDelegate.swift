@@ -16,7 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.setupAppearence()
         return true
+    }
+    
+    func setupAppearence() {
+//        UINavigationBar.appearance().tintColor = Color.textPrimaryLight.value
+        UINavigationBar.appearance().barTintColor = UIColor.clear
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UIApplication.shared.statusBarStyle = .lightContent
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

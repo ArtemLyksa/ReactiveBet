@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54120BB4B40E96DDECAB6D5C /* Pods_ReactiveBet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5A77E68F617279039EFAD5 /* Pods_ReactiveBet.framework */; };
+		FE215BD71F67106F00F84061 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE215BD61F67106F00F84061 /* ColorScheme.swift */; };
+		FE215BD91F67109000F84061 /* FontScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE215BD81F67109000F84061 /* FontScheme.swift */; };
+		FE215BDB1F67110C00F84061 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE215BDA1F67110C00F84061 /* UIColorExtension.swift */; };
+		FE215BDE1F67114C00F84061 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE215BDD1F67114C00F84061 /* StringExtension.swift */; };
+		FE215BE31F671BA100F84061 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE215BE21F671BA100F84061 /* ChallengeViewController.swift */; };
+		FE215BE51F671BAE00F84061 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE215BE41F671BAE00F84061 /* ActivityViewController.swift */; };
+		FE215BE71F671BBD00F84061 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE215BE61F671BBD00F84061 /* LeaderBoardViewController.swift */; };
+		FE215BE91F671C1400F84061 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE215BE81F671C1400F84061 /* HeaderView.swift */; };
+		FE215BEB1F671C2500F84061 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE215BEA1F671C2500F84061 /* ActivityView.swift */; };
+		FE43FE341F67F1D200F53748 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE43FE331F67F1D200F53748 /* ChatTableViewCell.swift */; };
+		FE43FE361F67FA4500F53748 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE43FE351F67FA4500F53748 /* ActivityViewModel.swift */; };
+		FE43FE3A1F680BF400F53748 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE43FE391F680BF400F53748 /* UserTableViewCell.swift */; };
+		FE43FE3C1F680D3700F53748 /* LeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE43FE3B1F680D3700F53748 /* LeaderViewModel.swift */; };
+		FE43FE3E1F68151100F53748 /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE43FE3D1F68151100F53748 /* TextInputView.swift */; };
 		FE5E73D91F670E9100DB3228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5E73D81F670E9100DB3228 /* AppDelegate.swift */; };
-		FE5E73DB1F670E9100DB3228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5E73DA1F670E9100DB3228 /* ViewController.swift */; };
 		FE5E73DE1F670E9100DB3228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5E73DC1F670E9100DB3228 /* Main.storyboard */; };
 		FE5E73E01F670E9100DB3228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5E73DF1F670E9100DB3228 /* Assets.xcassets */; };
 		FE5E73E31F670E9100DB3228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5E73E11F670E9100DB3228 /* LaunchScreen.storyboard */; };
+		FEF100351F67309700FADCD2 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF100341F67309700FADCD2 /* Challenge.swift */; };
+		FEF100371F6730A700FADCD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF100361F6730A700FADCD2 /* User.swift */; };
+		FEF100391F67312E00FADCD2 /* ChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF100381F67312E00FADCD2 /* ChallengeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B5A77E68F617279039EFAD5 /* Pods_ReactiveBet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveBet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E253DEC3A32CD5D7135EE6 /* Pods-ReactiveBet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveBet.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveBet/Pods-ReactiveBet.release.xcconfig"; sourceTree = "<group>"; };
+		EAC22FB246486864D1E8C0DE /* Pods-ReactiveBet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveBet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveBet/Pods-ReactiveBet.debug.xcconfig"; sourceTree = "<group>"; };
+		FE215BD61F67106F00F84061 /* ColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		FE215BD81F67109000F84061 /* FontScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontScheme.swift; sourceTree = "<group>"; };
+		FE215BDA1F67110C00F84061 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FE215BDD1F67114C00F84061 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		FE215BE21F671BA100F84061 /* ChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		FE215BE41F671BAE00F84061 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		FE215BE61F671BBD00F84061 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		FE215BE81F671C1400F84061 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FE215BEA1F671C2500F84061 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		FE43FE331F67F1D200F53748 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		FE43FE351F67FA4500F53748 /* ActivityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		FE43FE391F680BF400F53748 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		FE43FE3B1F680D3700F53748 /* LeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderViewModel.swift; sourceTree = "<group>"; };
+		FE43FE3D1F68151100F53748 /* TextInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
 		FE5E73D51F670E9100DB3228 /* ReactiveBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5E73D81F670E9100DB3228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE5E73DA1F670E9100DB3228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE5E73DD1F670E9100DB3228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE5E73DF1F670E9100DB3228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE5E73E21F670E9100DB3228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE5E73E41F670E9100DB3228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF100341F67309700FADCD2 /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		FEF100361F6730A700FADCD2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FEF100381F67312E00FADCD2 /* ChallengeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,108 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54120BB4B40E96DDECAB6D5C /* Pods_ReactiveBet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		755FCE355B73D176124DCF3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAC22FB246486864D1E8C0DE /* Pods-ReactiveBet.debug.xcconfig */,
+				81E253DEC3A32CD5D7135EE6 /* Pods-ReactiveBet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF78ADD807EFF4B99DC5847F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B5A77E68F617279039EFAD5 /* Pods_ReactiveBet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE215BD41F670F3A00F84061 /* ChallengeScene */ = {
+			isa = PBXGroup;
+			children = (
+				FE215BE11F67159000F84061 /* Views */,
+				FE215BE01F67158A00F84061 /* Models */,
+				FE215BDF1F6711C900F84061 /* ViewModels */,
+			);
+			name = ChallengeScene;
+			sourceTree = "<group>";
+		};
+		FE215BD51F67103700F84061 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FE215BD61F67106F00F84061 /* ColorScheme.swift */,
+				FE215BD81F67109000F84061 /* FontScheme.swift */,
+				FE215BDC1F67113A00F84061 /* Extensions */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		FE215BDC1F67113A00F84061 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE215BDA1F67110C00F84061 /* UIColorExtension.swift */,
+				FE215BDD1F67114C00F84061 /* StringExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		FE215BDF1F6711C900F84061 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FEF100381F67312E00FADCD2 /* ChallengeViewModel.swift */,
+				FE43FE351F67FA4500F53748 /* ActivityViewModel.swift */,
+				FE43FE3B1F680D3700F53748 /* LeaderViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		FE215BE01F67158A00F84061 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEF100341F67309700FADCD2 /* Challenge.swift */,
+				FEF100361F6730A700FADCD2 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FE215BE11F67159000F84061 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE215BE21F671BA100F84061 /* ChallengeViewController.swift */,
+				FE215BE41F671BAE00F84061 /* ActivityViewController.swift */,
+				FE215BE61F671BBD00F84061 /* LeaderBoardViewController.swift */,
+				FE215BE81F671C1400F84061 /* HeaderView.swift */,
+				FE215BEA1F671C2500F84061 /* ActivityView.swift */,
+				FE43FE3D1F68151100F53748 /* TextInputView.swift */,
+				FE43FE321F67F0BE00F53748 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FE43FE321F67F0BE00F53748 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FE43FE331F67F1D200F53748 /* ChatTableViewCell.swift */,
+				FE43FE391F680BF400F53748 /* UserTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		FE5E73CC1F670E9100DB3228 = {
 			isa = PBXGroup;
 			children = (
 				FE5E73D71F670E9100DB3228 /* ReactiveBet */,
 				FE5E73D61F670E9100DB3228 /* Products */,
+				755FCE355B73D176124DCF3B /* Pods */,
+				AF78ADD807EFF4B99DC5847F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +181,13 @@
 		FE5E73D71F670E9100DB3228 /* ReactiveBet */ = {
 			isa = PBXGroup;
 			children = (
+				FE215BD41F670F3A00F84061 /* ChallengeScene */,
 				FE5E73D81F670E9100DB3228 /* AppDelegate.swift */,
-				FE5E73DA1F670E9100DB3228 /* ViewController.swift */,
 				FE5E73DC1F670E9100DB3228 /* Main.storyboard */,
 				FE5E73DF1F670E9100DB3228 /* Assets.xcassets */,
 				FE5E73E11F670E9100DB3228 /* LaunchScreen.storyboard */,
 				FE5E73E41F670E9100DB3228 /* Info.plist */,
+				FE215BD51F67103700F84061 /* Helper */,
 			);
 			path = ReactiveBet;
 			sourceTree = "<group>";
@@ -71,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE5E73E71F670E9100DB3228 /* Build configuration list for PBXNativeTarget "ReactiveBet" */;
 			buildPhases = (
+				575FA2275885CAF5FCBA3600 /* [CP] Check Pods Manifest.lock */,
 				FE5E73D11F670E9100DB3228 /* Sources */,
 				FE5E73D21F670E9100DB3228 /* Frameworks */,
 				FE5E73D31F670E9100DB3228 /* Resources */,
+				11A33DBC0AAD5465FE0C7945 /* [CP] Embed Pods Frameworks */,
+				B2EC59D878041F2FF9C890FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +263,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11A33DBC0AAD5465FE0C7945 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveBet/Pods-ReactiveBet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxKeyboard/RxKeyboard.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxKeyboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveBet/Pods-ReactiveBet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		575FA2275885CAF5FCBA3600 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveBet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EC59D878041F2FF9C890FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveBet/Pods-ReactiveBet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE5E73D11F670E9100DB3228 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE5E73DB1F670E9100DB3228 /* ViewController.swift in Sources */,
+				FE215BD71F67106F00F84061 /* ColorScheme.swift in Sources */,
+				FE43FE3C1F680D3700F53748 /* LeaderViewModel.swift in Sources */,
+				FE215BE91F671C1400F84061 /* HeaderView.swift in Sources */,
 				FE5E73D91F670E9100DB3228 /* AppDelegate.swift in Sources */,
+				FE215BEB1F671C2500F84061 /* ActivityView.swift in Sources */,
+				FE43FE3A1F680BF400F53748 /* UserTableViewCell.swift in Sources */,
+				FEF100351F67309700FADCD2 /* Challenge.swift in Sources */,
+				FE43FE361F67FA4500F53748 /* ActivityViewModel.swift in Sources */,
+				FE43FE3E1F68151100F53748 /* TextInputView.swift in Sources */,
+				FE215BDE1F67114C00F84061 /* StringExtension.swift in Sources */,
+				FE215BD91F67109000F84061 /* FontScheme.swift in Sources */,
+				FE215BE51F671BAE00F84061 /* ActivityViewController.swift in Sources */,
+				FEF100371F6730A700FADCD2 /* User.swift in Sources */,
+				FE215BE31F671BA100F84061 /* ChallengeViewController.swift in Sources */,
+				FE215BE71F671BBD00F84061 /* LeaderBoardViewController.swift in Sources */,
+				FE43FE341F67F1D200F53748 /* ChatTableViewCell.swift in Sources */,
+				FE215BDB1F67110C00F84061 /* UIColorExtension.swift in Sources */,
+				FEF100391F67312E00FADCD2 /* ChallengeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +468,7 @@
 		};
 		FE5E73E81F670E9100DB3228 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC22FB246486864D1E8C0DE /* Pods-ReactiveBet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3HY885L7L9;
@@ -272,6 +482,7 @@
 		};
 		FE5E73E91F670E9100DB3228 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E253DEC3A32CD5D7135EE6 /* Pods-ReactiveBet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3HY885L7L9;
@@ -302,6 +513,7 @@
 				FE5E73E91F670E9100DB3228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
